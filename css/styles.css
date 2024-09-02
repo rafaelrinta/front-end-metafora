@@ -454,14 +454,11 @@ html {
 
 .two-columns-section .content-description {
     font-size: 1rem;
-    /* line-height: 1.5; */
 }
 
 .two-columns-section .row {
     display: flex;
-    /* Make the row a flex container */
     align-items: center;
-    /* Align the content of the row in the center vertically */
 }
 
 .two-columns-section .col-md-6 {
@@ -530,11 +527,11 @@ html {
 }
 
 .upper-content .row {
-    margin-bottom: 1rem; /* Tambahkan jarak antara baris */
+    margin-bottom: 1rem;
 }
 
 .upper-content .row:last-child {
-    margin-bottom: 0; /* Hapus jarak bawah untuk baris terakhir */
+    margin-bottom: 0;
 }
 
 .upper-content .bg-desc {
@@ -558,7 +555,6 @@ html {
     color: #ffffff;
 }
 
-/* Ensure the carousel item is responsive */
 .lower-content .carousel-item .testimonial-box {
     background-color: #2f444e;
     border-radius: 30px;
@@ -566,10 +562,9 @@ html {
     color: #ffffff;
     display: flex;
     align-items: center;
-    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    flex-wrap: wrap;
 }
 
-/* Responsive image size */
 .lower-content .carousel-item .testimonial-img {
     width: 80px;
     margin-right: 20px;
@@ -588,20 +583,16 @@ html {
     color: #d3d3d3;
 }
 
-/* Media query adjustments for responsiveness */
 @media (max-width: 768px) {
-    /* Smaller heading on smaller screens */
     .lower-content h2 {
         font-size: 1.5rem;
     }
 
-    /* Adjust image size on smaller screens */
     .lower-content .carousel-item .testimonial-img {
         width: 60px;
         margin: 10px 15px;
     }
 
-    /* Adjust text size on smaller screens */
     .lower-content .carousel-item h2.testimonial-title {
         font-size: 1.2rem;
     }
@@ -612,7 +603,6 @@ html {
 }
 
 @media (max-width: 576px) {
-    /* Stack image and text vertically on very small screens */
     .lower-content .carousel-item .testimonial-box {
         flex-direction: column;
         text-align: center;
@@ -641,15 +631,15 @@ html {
 
 .carousel-item .d-flex {
     align-items: center;
-    flex-wrap: wrap; /* Ensure content wraps on smaller screens */
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .carousel-item img.testimonial-img {
-    width: 200px; /* Tingkatkan ukuran gambar */
-    height: 200px; /* Tambahkan height agar gambar tetap proporsional */
+    width: 200px; 
+    height: 200px; 
     margin: 20px;
-    object-fit: contain; /* Agar gambar tidak terpotong */
+    object-fit: contain; 
 }
 
 .testimonial-content {
@@ -744,7 +734,7 @@ html {
 .article-slider {
     display: flex;
     gap: 15px;
-    flex-wrap: wrap; /* Allow articles to wrap on smaller screens */
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -773,20 +763,19 @@ html {
     z-index: 2;
 }
 
-/* Responsive adjustments */
 @media (max-width: 767.98px) {
     .latest-article-section .content-title {
         font-size: 1.5rem;
     }
 
     .article-card {
-        width: 100%; /* Make the article cards take up the full width */
-        height: 150px; /* Adjust the height for smaller screens */
+        width: 100%;
+        height: 150px;
         margin: 10px 0;
     }
 
     .article-content {
-        font-size: 0.9rem; /* Slightly reduce the font size on smaller screens */
+        font-size: 0.9rem;
         padding: 5px;
     }
 }
@@ -1060,7 +1049,7 @@ li i {
     background-color: #ffffff;
     border-radius: 30px;
     width: 100%;
-    padding-top: 100%; /* Membuat elemen menjadi persegi */
+    padding-top: 100%;
     position: relative;
     overflow: hidden;
 }
